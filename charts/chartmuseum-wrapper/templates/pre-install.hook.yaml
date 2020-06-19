@@ -24,6 +24,6 @@ spec:
       serviceAccountName: {{required  "A service account name is required." .Values.serviceAccountName}}
       restartPolicy: Never
       containers:
-  {{ toYaml .Values.preInstallContainers | indent 8}}
+{{ toYaml .Values.preInstallContainers | indent 8}}
 
-  {{ end }}
+{{ end }}
