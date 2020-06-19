@@ -1,4 +1,4 @@
-{{ if .Values.containers }}
+{{ if .Values.postInstallContainers }}
 
 apiVersion: batch/v1
 kind: Job
@@ -21,9 +21,10 @@ spec:
         app.kubernetes.io/instance: {{ .Release.Name | quote }}
         helm.sh/chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
     spec:
-      serviceAccountName: eksctl-sa
+      serviceAccountName: {{required  "A service account name is required." .Values.serviceAccountName}}
+
       restartPolicy: Never
       containers:
-{{ toYaml .Values.containers | indent 8}}
+{{ toYaml .Values.postInstallContainers | indent 8}}
 
 {{ end }}

@@ -1,9 +1,0 @@
-dependencies:
-- name: chartmuseum
-  repository: https://kubernetes-charts.storage.googleapis.com
-  version: 2.13.0
-- name: kubernetes-external-secrets
-  repository: https://godaddy.github.io/kubernetes-external-secrets/
-  version: 3.3.0
-digest: sha256:9aa7f37f4a1ea0f233b44b392e601c7cedd33cbd0e4d348c9b690ed860520b9a
-generated: "2020-06-18T22:56:46.602461-04:00"
