@@ -76,7 +76,7 @@ release_charts() {
 }
 
 update_index() {
-    cr index -o jmatias -r helm-charts -c git@github.com:jmatias/helm-charts
+    cr index -o jmatias -r helm-charts -c https://github.com/jmatias/helm-charts
 
     git config user.email "$GIT_EMAIL"
     git config user.name "$GIT_USERNAME"
