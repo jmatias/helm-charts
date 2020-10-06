@@ -1,11 +1,22 @@
 apiVersion: v1
 entries:
+  ptv:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2020-10-06T15:18:08.2157467-04:00"
+    description: A Helm chart for Kubernetes
+    digest: f3372946076991d143b8cb5fbf5f0339215966e5d4cc795740b2a6085bd39a0e
+    name: ptv
+    type: application
+    urls:
+    - https://github.com/jmatias/helm-charts/releases/download/ptv-0.2.9/ptv-0.2.9.tgz
+    version: 0.2.9
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2020-10-06T13:43:23.8933422-04:00"
+    created: "2020-10-06T15:18:08.3015689-04:00"
     description: Stolon - PostgreSQL cloud native High Availability.
-    digest: ec3455895d2e27f57bddf7efc134d39112514f210d223745662530c5d305b67d
+    digest: 552a8b7b8de0f15b3f95bbea82104919657d36956bf3c446160c2cefa6e09cdc
     home: https://github.com/sorintlab/stolon
     icon: https://i.imgur.com/tIW8sAW.png
     maintainers:
@@ -23,11 +34,11 @@ entries:
   unleash:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-10-06T13:43:23.9610857-04:00"
+    created: "2020-10-06T15:18:08.3694731-04:00"
     description: Feature toggle framework.
-    digest: f2ee0886ad4a64d1fe7fe3c2eb19f48bc8cdec0cf5a73765e86944c82bea84f8
+    digest: 0fdc106414ae1afd55447cb3c573b755dc50a98c10f5cc804639796d982ca81c
     name: unleash
     urls:
     - https://github.com/jmatias/helm-charts/releases/download/unleash-0.5.25/unleash-0.5.25.tgz
     version: 0.5.25
-generated: "2020-10-06T13:43:23.7751251-04:00"
+generated: "2020-10-06T15:18:08.09963-04:00"
