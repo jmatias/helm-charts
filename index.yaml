@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  stolon:
+  - apiVersion: v1
+    appVersion: 0.16.0
+    created: "2020-10-06T13:38:54.2084587-04:00"
+    description: Stolon - PostgreSQL cloud native High Availability.
+    digest: 243efb1d8dd2b4f49ed16f84adbf6f0826c78041e355519ad4f7b19c8c3115f4
+    home: https://github.com/sorintlab/stolon
+    icon: https://i.imgur.com/tIW8sAW.png
+    maintainers:
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: ipaq.lw@gmail.com
+      name: lwolf
+    name: stolon
+    sources:
+    - https://github.com/sorintlab/stolon
+    - https://github.com/lwolf/stolon-chart
+    urls:
+    - https://github.com/jmatias/helm-charts/releases/download/stolon-1.6.4/stolon-1.6.4.tgz
+    version: 1.6.4
+  unleash:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2020-10-06T13:38:54.2875859-04:00"
+    description: Feature toggle framework.
+    digest: 62ab98da01b254ecfd42eaf820fb8c814307064d0165ff2bc0af24e0f132ddf2
+    name: unleash
+    urls:
+    - https://github.com/jmatias/helm-charts/releases/download/unleash-0.5.25/unleash-0.5.25.tgz
+    version: 0.5.25
+generated: "2020-10-06T13:38:54.0972321-04:00"
