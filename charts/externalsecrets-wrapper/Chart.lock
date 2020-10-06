@@ -1,6 +1,0 @@
-dependencies:
-- name: kubernetes-external-secrets
-  repository: https://godaddy.github.io/kubernetes-external-secrets/
-  version: 3.3.0
-digest: sha256:81c86078e7a621177bd9f4e49f91c3189d990d52930e141f011a9b6cd38c7a55
-generated: "2020-06-19T15:32:00.4529531-04:00"

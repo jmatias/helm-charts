@@ -1,6 +1,0 @@
-dependencies:
-- name: chartmuseum
-  repository: https://kubernetes-charts.storage.googleapis.com
-  version: 2.13.0
-digest: sha256:f7292a23050c2267f69bdaf9d17f4690eb6d9b756722aa7c97a50367080f7dd9
-generated: "2020-06-19T14:32:09.6690735-04:00"
