@@ -3,30 +3,20 @@ entries:
   ptv:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-10-06T16:59:14.6207675-04:00"
+    created: "2020-10-07T00:12:36.3800302-04:00"
     description: A Helm chart for Kubernetes
-    digest: 12dfac545d6ffac4fc04cd4ff1fdb9b304a5f6df09b9a1587cefc26e7f5b9956
+    digest: 0935c7755698f9a7cac7f7de9b1007676b37db9a0be06f3e030193fc2cd24e42
     name: ptv
     type: application
     urls:
     - https://github.com/jmatias/helm-charts/releases/download/ptv-0.2.10/ptv-0.2.10.tgz
     version: 0.2.10
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: "2020-10-06T16:59:14.6980166-04:00"
-    description: A Helm chart for Kubernetes
-    digest: f3372946076991d143b8cb5fbf5f0339215966e5d4cc795740b2a6085bd39a0e
-    name: ptv
-    type: application
-    urls:
-    - https://github.com/jmatias/helm-charts/releases/download/ptv-0.2.9/ptv-0.2.9.tgz
-    version: 0.2.9
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2020-10-06T16:59:14.7788909-04:00"
+    created: "2020-10-07T00:12:36.4500973-04:00"
     description: Stolon - PostgreSQL cloud native High Availability.
-    digest: 552a8b7b8de0f15b3f95bbea82104919657d36956bf3c446160c2cefa6e09cdc
+    digest: 9f3815039a34cff55620adacb1aa61d1ee45855d50b5e228e17ac5147dc3ea32
     home: https://github.com/sorintlab/stolon
     icon: https://i.imgur.com/tIW8sAW.png
     maintainers:
@@ -39,16 +29,16 @@ entries:
     - https://github.com/sorintlab/stolon
     - https://github.com/lwolf/stolon-chart
     urls:
-    - https://github.com/jmatias/helm-charts/releases/download/stolon-1.6.4/stolon-1.6.4.tgz
-    version: 1.6.4
+    - https://github.com/jmatias/helm-charts/releases/download/stolon-1.6.5/stolon-1.6.5.tgz
+    version: 1.6.5
   unleash:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-10-06T16:59:14.8540065-04:00"
+    created: "2020-10-07T00:12:36.5285204-04:00"
     description: Feature toggle framework.
-    digest: 0fdc106414ae1afd55447cb3c573b755dc50a98c10f5cc804639796d982ca81c
+    digest: eadc77d1b34f6d9a459a594f2a457698906acab766e2f15d759bf65c8123b4d1
     name: unleash
     urls:
     - https://github.com/jmatias/helm-charts/releases/download/unleash-0.5.25/unleash-0.5.25.tgz
     version: 0.5.25
-generated: "2020-10-06T16:59:14.5093736-04:00"
+generated: "2020-10-07T00:12:36.2710255-04:00"
