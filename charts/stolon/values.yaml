@@ -153,6 +153,7 @@ proxy:
         port: 5432
         targetPort: 5432
         protocol: TCP
+      nodePort: 30000
   nodeSelector: {}
   affinity: {}
   tolerations: []
