@@ -145,7 +145,7 @@ proxy:
   resources: {}
   priorityClassName: ""
   service:
-    type: ClusterIP
+    type: NodePort
 #    loadBalancerIP: ""
     annotations: {}
     ports:
@@ -153,7 +153,7 @@ proxy:
         port: 5432
         targetPort: 5432
         protocol: TCP
-      nodePort: 30000
+        nodePort: 30000
   nodeSelector: {}
   affinity: {}
   tolerations: []
