@@ -3,9 +3,9 @@ entries:
   ptv:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-10-07T00:12:36.3800302-04:00"
+    created: "2020-10-07T00:27:31.7567958-04:00"
     description: A Helm chart for Kubernetes
-    digest: 0935c7755698f9a7cac7f7de9b1007676b37db9a0be06f3e030193fc2cd24e42
+    digest: ed1640cd0017a82a787f8cb7403df3820678bc9ece9b8279435ddef5db34fd35
     name: ptv
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2020-10-07T00:12:36.4500973-04:00"
+    created: "2020-10-07T00:27:31.901765-04:00"
     description: Stolon - PostgreSQL cloud native High Availability.
-    digest: 9f3815039a34cff55620adacb1aa61d1ee45855d50b5e228e17ac5147dc3ea32
+    digest: a32eca860dd8012ad5eebad44ddd60b0d94f6bf6e921073a628d910bdb5a4013
     home: https://github.com/sorintlab/stolon
     icon: https://i.imgur.com/tIW8sAW.png
     maintainers:
@@ -29,16 +29,35 @@ entries:
     - https://github.com/sorintlab/stolon
     - https://github.com/lwolf/stolon-chart
     urls:
-    - https://github.com/jmatias/helm-charts/releases/download/stolon-1.6.5/stolon-1.6.5.tgz
-    version: 1.6.5
+    - https://github.com/jmatias/helm-charts/releases/download/stolon-1.6.7/stolon-1.6.7.tgz
+    version: 1.6.7
+  - apiVersion: v1
+    appVersion: 0.16.0
+    created: "2020-10-07T00:27:31.8293587-04:00"
+    description: Stolon - PostgreSQL cloud native High Availability.
+    digest: e00dbcb01e1ac370d2dd6fbc68e9107f0df59759c749888d7a658787a728c775
+    home: https://github.com/sorintlab/stolon
+    icon: https://i.imgur.com/tIW8sAW.png
+    maintainers:
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: ipaq.lw@gmail.com
+      name: lwolf
+    name: stolon
+    sources:
+    - https://github.com/sorintlab/stolon
+    - https://github.com/lwolf/stolon-chart
+    urls:
+    - https://github.com/jmatias/helm-charts/releases/download/stolon-1.6.6/stolon-1.6.6.tgz
+    version: 1.6.6
   unleash:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-10-07T00:12:36.5285204-04:00"
+    created: "2020-10-07T00:27:31.9682017-04:00"
     description: Feature toggle framework.
-    digest: eadc77d1b34f6d9a459a594f2a457698906acab766e2f15d759bf65c8123b4d1
+    digest: d1c04b9219c534ad51005afc4782337fe57b62dfc8c7b4a8f6d7f38b6ab0f933
     name: unleash
     urls:
     - https://github.com/jmatias/helm-charts/releases/download/unleash-0.5.25/unleash-0.5.25.tgz
     version: 0.5.25
-generated: "2020-10-07T00:12:36.2710255-04:00"
+generated: "2020-10-07T00:27:31.6490467-04:00"
