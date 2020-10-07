@@ -145,7 +145,7 @@ proxy:
   resources: {}
   priorityClassName: ""
   service:
-    type: NodePort
+    type: ClusterIP
 #    loadBalancerIP: ""
     annotations: {}
     ports:
